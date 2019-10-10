@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Energy Station</string>
     <string name="title_activity_maps">Map</string>
+    <string name="description">"Your sustainable option with specialized posts through solar panels since 2019. "</string>
+    <string name="procurar_postos">Find a station</string>
+    <string name="select_a_station">Select a station</string>
+    <string name="developers"><![CDATA[Developers: Débora & Gustavo]]></string>
 </resources>

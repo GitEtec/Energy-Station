@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Energy Station</string>
+    <string name="select_a_station">Selecione uma estação</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="procurar_postos">Ache uma estação</string>
+    <string name="description">A sua opção sustentável com postos especializados por meio de painéis solares desde 2019.</string>
+    <string name="developers"><![CDATA[Desenvolvedores: Débora & Gustavo]]></string>
+</resources>
