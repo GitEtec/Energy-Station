@@ -55,9 +55,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/selector_button"
             android:onClick="openMap"
-            android:padding="5dp"
+            android:padding="8dp"
             android:text="@string/procurar_postos"
             android:textColor="@android:color/white"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -67,8 +68,10 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Desenvolvedores: Débora &amp; Gustavo"
+            android:text="@string/developers"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
