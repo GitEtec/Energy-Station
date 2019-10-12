@@ -3,8 +3,7 @@
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <fragment
         android:id="@+id/map"
@@ -17,34 +16,42 @@
         map:layout_constraintTop_toTopOf="parent"
         tools:context=".MapsActivity" />
 
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@drawable/background_select_station"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        map:cardBackgroundColor="@color/colorPrimary"
+        map:cardCornerRadius="8dp"
+        map:cardElevation="10dp"
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintStart_toStartOf="parent"
         map:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="3dp"
-            android:text="@string/select_a_station"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
-        <Spinner
-            android:id="@+id/stationsSpinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/select_a_station"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/stationsSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
