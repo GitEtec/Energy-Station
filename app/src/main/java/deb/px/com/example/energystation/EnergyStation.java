@@ -2,14 +2,14 @@ package deb.px.com.example.energystation;
 
 import com.google.android.gms.maps.model.LatLng;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class EnergyStation {
     public static final int TOTAL_STATIONS = 11;
 
-    private List<String> stationsName = new ArrayList<>();
-    private List<LatLng> latLngs = new ArrayList<>();
+    private List<String> stationsName = new LinkedList<>();
+    private List<LatLng> latLngs = new LinkedList<>();
 
     public EnergyStation() {
         stationsName.add("Energy Station - Av Aguia de Haia");
