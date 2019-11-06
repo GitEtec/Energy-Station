@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "818661004458",
+    "firebase_url": "https://energy-station.firebaseio.com",
+    "project_id": "energy-station",
+    "storage_bucket": "energy-station.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818661004458:android:51b15a06094ce8072aecd3",
+        "android_client_info": {
+          "package_name": "deb.px.com.example.energystation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818661004458-cnudt49errondgtuql1fkblc8ejcd2ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deb.px.com.example.energystation",
+            "certificate_hash": "0ffec6a32a57fe337eb09237a8ebaa4e25a9e5fb"
+          }
+        },
+        {
+          "client_id": "818661004458-kkml16ed4ipfuoona48qdqd2p528rlnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOytp9_lyjDfFGg02L-onaSqRIumv_bG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818661004458-kkml16ed4ipfuoona48qdqd2p528rlnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

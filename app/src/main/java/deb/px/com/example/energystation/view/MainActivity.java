@@ -1,10 +1,12 @@
-package deb.px.com.example.energystation;
+package deb.px.com.example.energystation.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import deb.px.com.example.energystation.R;
 
 public class MainActivity extends AppCompatActivity {
 

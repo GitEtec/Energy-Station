@@ -1,4 +1,4 @@
-package deb.px.com.example.energystation;
+package deb.px.com.example.energystation.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,5 +11,6 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         startActivity(new Intent(SplashActivity.this, MainActivity.class));
+        finish();
     }
 }

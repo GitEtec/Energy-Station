@@ -5,4 +5,13 @@
     <string name="procurar_postos">Find a station</string>
     <string name="select_a_station">Select a station</string>
     <string name="developers"><![CDATA[Developers: Débora & Gustavo]]></string>
+
+    <string name="title_activity_energy_station_profile">EnergyStationProfileActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="horario">Horário</string>
+    <string name="estacionamento">Estacionamento</string>
+    <string name="fotos">Fotos</string>
+    <string name="comodidades">Comodidades</string>
+    <string name="title_activity_test">TestActivity</string>
 </resources>
