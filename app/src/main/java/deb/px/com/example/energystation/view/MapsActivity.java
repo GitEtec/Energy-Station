@@ -113,8 +113,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         valueEventListener = energyStationsReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                energyStationsList.clear();
                 mMap.clear();
+                energyStationsList.clear();
+                stationsName.clear();
                 totalStations = 0;
 
                 for (DataSnapshot data : dataSnapshot.getChildren()) {
@@ -124,8 +125,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     totalStations++;
                 }
 
-                for (int i = 0; i < totalStations; i++)
-                    mMap.addMarker(new MarkerOptions().position(energyStationsList.get(i).getMyLatLng().toLatLng()).title(energyStationsList.get(i).getTitle()));
+                addMarkers();
 
                 spinnerAdapter.notifyDataSetChanged();
             }
@@ -135,6 +135,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
     }
+
+    private void addMarkers() {
+        for (int i = 0; i < totalStations; i++)
+            mMap.addMarker(new MarkerOptions().position(energyStationsList.get(i).getMyLatLng().toLatLng()).title(energyStationsList.get(i).getTitle()));
+    }
+
 
     @Override
     protected void onStart() {
